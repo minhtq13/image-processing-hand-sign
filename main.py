@@ -57,8 +57,8 @@ while True:
                       (x + w+offset, y + h+offset), (255, 0, 255), 4)
 
 
-        cv2.imshow("ImageCrop", imgCrop)
-        cv2.imshow("ImageWhite", imgWhite)
+        # cv2.imshow("ImageCrop", imgCrop)
+        # cv2.imshow("ImageWhite", imgWhite)
 
     cv2.imshow("Image", imgOutput)
     cv2.waitKey(1)
